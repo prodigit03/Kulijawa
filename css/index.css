@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.desktop{
+    display: none;
+}
+@media (min-width:767px) {
+    .wrapper{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktopNav{
+        display: flex;
+        gap: .5em;
+        align-items: center;
+    }
+    .home{
+        color: black;
+        text-decoration: none;
+        padding-left: 1.5em;
+        font-weight: bold;
+    }
+    .contact1{
+        color: #064E3B;
+        border: 2px solid #064E3B;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 5px 5px;
+        border-radius: .2em;
+    }
+}
+@media (min-width:1024px) {
+    .wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+.pageCon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    text-align: center;
+}
+.kulijawa{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+@media (min-width:767px) {
+    .flexCon5{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.widthCon{
+    font-size: 2.5em;
+    padding-top: 1em; 
+    font-weight: 800;
+}
+.designCon{
+    padding: 1.5em 0;
+}
+.services{
+    border: 2px solid #064E3B;
+    color: white;
+    background-color: #064E3B;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.pic1{
+    padding: 4em 0;
+}
+.fontSize2{
+    font-size: 1.8em;
+    padding-top: 0.5em;
+}
+@media (min-width:767px) {
+    .fontSize2{
+        font-size: em;
+        padding-left: 0.5em;
+    }
+}
+.spacingCon{
+    padding: 1em 0;
+}
+@media (min-width:767px) {
+    .spacingCon{
+        width: 48%;
+    }
+}
+@media (min-width:1024px) {
+    .spacingCon{
+        width: 30%;
+    }
+}
+@media (min-width:767px) {
+    .one{
+        gap: 1em;
+    }
+}
+@media (min-width:1024px) {
+    .one{
+        width: 48%;
+        gap: 1em;
+    }
+}
+.fontSize1{
+    font-size: 1.3em;
+    /* padding: */
+}
+.greencolor1{
+    color: #064E3B;
+    font-size: 1.3em;
+}
+@media (min-width:767px) {
+    .greencolor1{
+        padding-top: 0.5em;
+    }
+}
+.project3{
+    font-size: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+@media (min-width:767px) {
+   .project3{
+   /* font-size: ; */
+    
+   }
+}
+.thirdCon{
+    text-align: center;
+    padding: 1em 0;
+}
+.seeAll{
+    border: 2px solid #064E3B;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    background-color: #064E3B;
+    font-size: 16px;
+}
+.greenbackground{
+    background-color: #064E3B;
+    color: white;
+    padding: 2.3em 0;
+    margin-top: 3em;
+}
+.project1{
+    text-align: center;
+    font-size: 1em;
+}
+@media (min-width:767px) {
+    .project1{
+        font-size: 2em;
+    }
+}
+.project2{
+    font-size: 12px;
+    text-align: center;
+    padding: 1em 0;
+}
+@media (min-width:767px) {
+    .project2{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+.contactUs{
+    border: 2px solid white;
+    color: #064E3B;
+    background-color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.footerCon{
+    padding: 3em 0;
+}
+.flexCon2{
+    display: flex;
+    justify-content: center;
+}
+.flexCon{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    border-bottom: 1px solid rgb(170, 169, 169);
+}
+
+.paddingCon{
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+}
+.flexCon3{
+    text-align: center;
+    padding-top: 2em;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width:767px) {
+    .flexCon3{
+        display: flex;
+        justify-content: center;
+        padding-top: 2em;
+        gap: 1em;
+        flex-direction: row;
+    }
+}
+@media (min-width:1024px) {
+    .flexCon3{
+        display: flex;
+        justify-content: center;
+        padding-top: 2em;
+        gap: 1em;
+    }
+}
+.linktag{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.flexCon4{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+}
+@media (min-width:767px) {
+    .widthBox{
+        width: 80%;
+    }
+    .widthBox2{
+        width: 90%;
+    }
+    .spaceCon{
+        gap: 1em;
+    }
+}
+@media (min-width:1024px) {
+    .widthBox3{
+        width: 50%;
+    }
+}
+    
